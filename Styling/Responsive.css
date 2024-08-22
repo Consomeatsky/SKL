@@ -1,0 +1,405 @@
+@media screen and (max-width:320px) {
+  html {
+    overflow-x: hidden;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+
+  .pattern {
+    position: absolute;
+    right: 5.5rem;
+    width: 72%;
+  }
+
+  .ibnu h1, .midtext {
+    right: 1rem;
+    font-size: 2rem;
+    line-height: .8rem;
+    position: relative;
+  }
+
+  .midtext {
+      position: relative;
+      bottom: 15rem;
+  }
+
+  .muha {
+    position: relative;
+    bottom: 15rem;
+    right: 1rem;
+  }
+
+  .frontend {
+    font-size: .6rem;
+    position: relative;
+    bottom: 21rem;
+    right: 1.9rem;
+  }
+
+  .sosmed {
+    padding-top: 0.2rem;
+    gap: 1rem;
+  }
+  
+  .sosmed li a {
+    font-size: 60%;
+    position: relative;
+    bottom: 21rem;
+    right: 4rem;
+  }
+
+  .mapict p {
+    font-size: 20%;
+  }
+
+  footer {
+    width: 90%;
+  }
+
+  footer p {
+    font-size: 0.2rem;
+  }
+}
+
+@media (max-width:376px) {
+  .ibnu h1, .midtext {
+    right: 1rem;
+    font-size: 1.5rem;
+    line-height: .8rem;
+    position: relative;
+  }
+
+  .midtext {
+      position: relative;
+  }
+
+  .muha {
+    position: relative;
+    right: 1rem;
+  }
+
+  .frontend {
+    font-size: .6rem;
+    position: relative;
+    bottom: 21rem;
+    right: 2.5rem;
+  }
+
+  .sosmed {
+    padding-top: 0.2rem;
+    gap: 1rem;
+  }
+  
+  .sosmed li a {
+    font-size: 60%;
+    position: relative;
+    bottom: 21rem;
+    right: 4rem;
+  }
+}
+
+@media (max-width:576px) {
+  .dropdown {
+    left: 2rem;
+    width: 40rem;
+  }
+
+  .pattern img {
+      position: relative;
+      right: 5px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .project {
+    top: 50rem;
+  }
+
+  
+}
+
+@media screen and (max-width:768px) {
+    html {
+      overflow-x: hidden;
+    }
+
+    .home {
+      height: 60vh;
+      overflow: hidden;
+    }
+
+    .nav2 a {
+      position: relative;
+      right: 10rem;
+    }
+
+    .home, .about,
+    .project, .contact {
+      overflow-x: hidden;
+    }
+
+     .home {
+      position: relative;
+     }
+
+     .ibnu h1, .midtext {
+      left: 0.12rem;
+      font-size: 3.5rem;
+      line-height: 1.5rem;
+      position: relative;
+    }
+  
+    .midtext {
+        position: relative;
+        right: 3rem;
+    }
+  
+    .muha {
+      position: relative;
+      right: .1rem;
+    }
+  
+    .frontend {
+      font-size: 1rem;
+      position: relative;
+      bottom: 3.3rem;
+      right: 0.2rem;
+    }
+  
+    .sosmed {
+      padding-top: 0.2rem;
+      gap: 2rem;
+      left: 2rem;
+    }
+    
+    .sosmed li a {
+      font-size: 2rem;
+      position: relative;
+      bottom: 3rem;
+      right: 1rem;
+    }  
+
+     .show {
+      display: flex;
+      flex-direction: column;
+     }
+
+     .project {
+      padding-top: 45rem;
+     }
+
+     .pattern img {
+      position: relative;
+      left: .1rem;
+     }
+
+     .skillt {
+      font-size: 1.5rem;
+     }
+
+     .progress2 h3 {
+      font-size: 1.2rem;
+     }
+
+     footer p {
+      font-size: 0.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     .contact {
+      overflow-y: hidden;
+      padding-bottom: 1rem;
+     }
+}
+
+@media (max-width: 850px) {
+
+  .nav2 a {
+    position: relative;
+    right: 10rem;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .conform:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  .square {
+    transform: translate(140%, 43%);
+    height: 350px;
+  }
+
+  .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+
+  .text {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .social-media {
+    padding: 1.5rem 0 0 0;
+  }
+
+  .spin {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .spin {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+  }
+
+  .big-circle {
+    display: none;
+  } 
+
+  .nav2 a {
+    position: relative;
+    right: 5rem;
+  }
+
+  .cont .nav {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .cont {
+    backdrop-filter: blur(0px);
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .pict {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .project {
+    padding-top: 43rem;
+  }
+
+  .pattern {
+    width: 102%;
+    left: 0.2rem;
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  
+}
+
+@media only screen and (min-width: 1025px) {
+
+}
+
+
+
+
+  
+  @media (max-width: 480px) {
+
+    .contactcon {
+      padding: 1.5rem;
+    }
+  
+    .contact-info:before {
+      display: none;
+    }
+  
+    .square,
+    .big-circle {
+      display: none;
+    }
+  
+    form,
+    .contact-info {
+      padding: 1.7rem 1.6rem;
+    }
+  
+    .text,
+    .information,
+    .social-media p {
+      font-size: 0.8rem;
+    }
+  
+    .title {
+      font-size: 1.15rem;
+    }
+  
+    .social-icons a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .icon {
+      width: 23px;
+    }
+  
+    .input {
+      padding: 0.45rem 1.2rem;
+    }
+  
+    .btn {
+      padding: 0.45rem 1.2rem;
+    }
+
+    .nav2 a {
+      position: relative;
+      right: 10rem;
+    }
+
+    footer p {
+      font-size: 0.6rem;
+    }
+  }
+
+  @media screen and (max-width:470px) {
+    .aboutt p {
+      padding: 1rem;
+      font-size: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mapict img {
+      width: 20rem;
+      height: 20rem;
+    }
+  }

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKL Portofolio</title>
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="Styling/style.css">
+
+    <!-- Responsive -->
+     <link rel="stylesheet" href="Styling/Responsive.css">
+
+     <!-- Poppins -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Baskerville -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Minecraft -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+     <!-- Script -->
+     <script
+     src="https://kit.fontawesome.com/64d58efce2.js"
+     crossorigin="anonymous"
+   ></script>
+
+</head>
+<body>
+    
+    <header class="top">
+        <div class="cont">
+            <div class="logo">
+                <img src="Media/Kepala.png" alt="" style="width: 30%;">
+            </div>
+            <nav class="nav">
+                <a href="#home" class="active">Home</a>
+                <a href="#about" >About</a>
+                <a href="#skill">Skill</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="nav2con">
+            <nav class="nav2">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skill">Skill</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        </div>
+
+        <script>
+            const toggleBtn = document.querySelector('.toggle')
+            const toggleBtnIcon = document.querySelector('.toggle i')
+            const dropDownMenu = document.querySelector('.dropdown')
+
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle ('open')
+                const isOpen = dropDownMenu.classList.contains ('open')
+
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-bars'
+                : 'fa-solid fa-xmark'
+            }
+
+        </script>
+
+    </header>
+
+    <main class="home" id="home">
+         <div class="name">
+            <div class="namecon">
+                <div class="ibnu">
+
+                    <h1 style="height: 300px;">
+                        <span class="midtext animate__animated animate__fadeInDown">
+                         IBNU 
+                        <span class="alif">ALIF</span>
+                        </span>
+                        <br/>
+                        <span class="muha">MUHADZDZIB</span>
+                    </h1>
+
+                    <p class="frontend">
+                        A <span class="fe">Front-End</span> Developer
+                    </p>
+
+                    <ul class="sosmed">
+                        <li><a href="#"><i class="fa-brands fa-html5"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-css3-alt"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-python"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-js"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        <div class="pict">
+            <img src="Media/Circle back.png" alt="" style="width: 850px;">
+        </div>
+
+        <div class="pattern">
+            <img src="Media/Pattern.png" alt="">
+        </div>
+
+    </main>
+
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Me</span></h1>
+        <div class="container">
+            <div class="aboutt">
+                <div class="mapict">
+                    <img src="Media/Kereta.jpg" alt="">
+                </div>
+                <p class="aboutme">
+                    I started programming when I was in 9th grade, at that time I only had a few skills for programming and only had skills in video editing and photography. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia porro officia est dignissimos repellendus sunt. Explicabo tenetur, nemo odio cumque iure, quasi nostrum animi, aspernatur reprehenderit commodi illum distinctio. Quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque delectus atque excepturi eum a temporibus similique, quos, culpa numquam voluptas! Possimus deleniti tenetur reiciendis explicabo necessitatibus ut deserunt autem.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h2 class="heading">My <span>Skills</span> </h2>
+
+        <div class="row">
+            <div class="column">
+                <h3 class="skillt">Programming Skills</h3>
+                
+                <div class="skillbox">
+                    <div class="skillcon">
+
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>62%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3 class="skillt" id="prof">Professional Skills</h3>
+                
+                <div class="skillbox">
+                    <div class="skillcon">
+
+                        <div class="progress2">
+                            <h3>Video Editing <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress2">
+                            <h3>Graphic Design <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress2">
+                            <h3>Cinematography <span>82%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress2">
+                            <h3>Web Development <span>57%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <h1 class="heading">My <span>Project</span></h1>
+        <div class="show">
+        <div class="container" id="card1">
+            <div class="card">
+                <div class="image">
+                    <img src="Media/Mockup.png" alt="">
+                </div>
+                    <div class="content">
+                        <h2>My First Project</h2>
+                        <p style="text-transform: capitalize;">
+                            Project yang dibuat untuk menunjukkan skill skill yang yang dimiliki oleh saya
+                        </p>
+                        <a href="https://archisocrates.github.io/AboutMe/">Visit</a>
+                    </div>
+            </div>
+        </div>
+        <div class="container" id="card2">
+            <div class="card">
+                <div class="image">
+                    <img src="Media/Mockup.jpg" alt="">
+                </div>
+                    <div class="content">
+                        <h2>My Second Project</h2>
+                        <p style="text-transform: capitalize;">
+                            Web yang dibuat sebagai standar kompetensi lulusan (SKL) yang diberikan dari sekolah 
+                        </p>
+                        <a href="#home">Visit</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contactcon">
+            <span class="big-circle"></span>
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="cit">Get In Touch With Me!</h3>
+                <p class="text">
+                    Hey there! would you like to chat? so get in touch with me over PM or send me your message with Gmail! 
+                </p>
+      
+                
+      
+                <div class="social-media">
+                  <p>Connect With Me :</p>
+                  <div class="social-icons">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="conform">
+                <span class="sirkel"></span>
+                <span class="sirkell"></span>
+      
+                <form action="index.html" autocomplete="off">
+                  <h3 class="titlec">Contact Me</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Username</label>
+                    <span>Username</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Email</label>
+                    <span>Email</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Phone</label>
+                    <span>Phone</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                  </div>
+                  <input type="submit" value="Send" class="btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+      
+          <script src="Js/app.js"></script>
+    </section>
+
+    <footer>
+        <p>
+            Copyright &copy; | Ibnu Alif Muhadzdzib | All right reserved
+        </p>
+    </footer>
+
+</body>
+</html>
